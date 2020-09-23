@@ -3,6 +3,6 @@
 Implements syncronised inputs for terms. Like tmux is able to do.
 
 #+BEGIN_SRC emacs-lisp
-(add-to-list "path/to/emux")
+(add-to-list 'load-path "path/to/emux")
 (require 'emux)
 #+END_SRC
