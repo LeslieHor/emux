@@ -1,3 +1,8 @@
 #+TITLE: Emux
 
 Implements syncronised inputs for terms. Like tmux is able to do.
+
+#+BEGIN_SRC emacs-lisp
+(add-to-list "path/to/emux")
+(require 'emux)
+#+END_SRC
